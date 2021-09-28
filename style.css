@@ -14,7 +14,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
-
 h1,
 h2,
 h3,
@@ -29,9 +28,10 @@ h6 {
   margin: 20px auto;
   width: 30%;
 }
-/* NAv */
+
+/* Nav */
 .bg-light{
-  background-color: rgba(211, 127, 155, 0.8) !important;
+  background-color: rgba(107, 78, 113, 0.8) !important;
 }
 .navbar-brand{
   font-size: 2rem;
@@ -49,9 +49,10 @@ h6 {
   background: var(--violet);
   color: var(--cream);
 }
+
 /* Header */
 .headerHome{
-  background-image: linear-gradient(rgba(107, 78, 113, .8),rgba(255,255,255,.9)), url(./img/header-background.png);
+  background-image: linear-gradient(rgba(107, 78, 113, .8),rgba(58, 68, 84,.9)), url(./img/header-background.png);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -69,6 +70,7 @@ h6 {
 .headerHome p{
   font-size: 1.3rem;
 }
+
 /* Services */
 .services img{
   padding: 30px;
@@ -76,4 +78,28 @@ h6 {
 .services img:hover{
   transform: rotate(20deg);
   transition: .6s ease;
+}
+
+/* Skills */
+.skills{
+  background-image: linear-gradient(to left, rgba(107, 78, 113, .95),rgba(58, 68, 84,.95)), url(./img/bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+.skills h2{
+  font-size: 3rem;
+}
+.skills h2 span{
+  color: var(--cream);
+  font-style: italic;
+  text-shadow: 0 0 5px var(--black);
+}
+.skills ul li{
+  line-height: 2;
+  font-size: 20px;
+}
+.skills .fa-laptop-code{
+  font-size: 10rem;
+  text-shadow: 0 0 25px var(--black);
 }
