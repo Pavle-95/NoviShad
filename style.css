@@ -145,10 +145,18 @@ footer i:hover{
 .technology .card-text{
   padding: 0 30px 40px 30px;
 }
+
 /* Jumbotron */
 .jumbotron{
   background-image: linear-gradient(rgba(107, 78, 113, .8),rgba(255, 255, 255, .99)), url(./img/novisad.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
+}
+
+/* Contact */
+.contact i {
+  font-size: 3rem;
+  color: var(--violet);
+  padding-bottom: 30px;
 }
