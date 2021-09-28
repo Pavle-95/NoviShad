@@ -161,7 +161,7 @@ footer i:hover{
   padding-bottom: 30px;
 }
 /* responsive */
-@media(max-width: 768px) {
+@media(max-width:768px) {
     .headeHome h1{
       font-size: 2rem;
       text-align: center;
