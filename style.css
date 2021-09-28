@@ -31,7 +31,7 @@ h6 {
 
 /* Nav */
 .bg-light{
-  background-color: rgba(107, 78, 113, 0.8) !important;
+  background-color: rgba(138, 103, 145, 0.8) !important;
 }
 .navbar-brand{
   font-size: 2rem;
@@ -159,4 +159,18 @@ footer i:hover{
   font-size: 3rem;
   color: var(--violet);
   padding-bottom: 30px;
+}
+/* responsive */
+@media(max-width: 768px) {
+    .headeHome h1{
+      font-size: 2rem;
+      text-align: center;
+    }
+    .headeHome p{
+      font-size: 1rem;
+      text-align: center;
+    }
+    .skills{
+      height: 80vh;
+    }
 }
